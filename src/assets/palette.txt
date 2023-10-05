@@ -1,0 +1,2 @@
+
+theme color: #c62ab1
