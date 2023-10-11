@@ -4,13 +4,17 @@ import Navbar from "react-bootstrap/Navbar";
 export default function NavBar() {
   return (
     <>
-      <Navbar className="bg-body-tertiary">
-        <Container>
-            <Navbar.Brand href="#home"/>
+      <Navbar expand="lg" bg="dark" data-bs-theme="dark" fixed="top">
+        <Container fluid>
+            <Navbar.Brand href="#home">
             <img
-            src="public/icon.svg"
-            width="30"
+            src="icon.svg"
+            width="50"
+            className="d-inline-block align-top"
             />
+            <p>Modularize</p>
+            
+            </Navbar.Brand>
         </Container>
       </Navbar>
     </>
