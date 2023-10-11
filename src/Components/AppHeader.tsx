@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 import BusinessName from "./BusinessName";
 
 export default function AppHeader() {
