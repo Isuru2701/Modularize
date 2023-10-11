@@ -1,15 +1,15 @@
-import "./App.css";
-
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import NavBar from "./Components/NavBar";
+import AppHeader from "./Components/AppHeader";
+
+import "./Styles.css"
 
 function App() {
   return (
-    <>
-      <div className="header">
-        <NavBar />
-      </div>
-    </>
+    <div>
+      <header id="header" >
+        <AppHeader />
+      </header>
+    </div>
   );
 }
 
