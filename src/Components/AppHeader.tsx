@@ -5,15 +5,14 @@ import BusinessName from "./BusinessName";
 export default function AppHeader() {
   return (
     <div>
-        <Navbar expand="lg" bg="dark" data-bs-theme="dark" fixed="top">
+        <Navbar className="bg-body-tertiary">
           <Container fluid>
             <Navbar.Brand href="#home">
               <img
                 src="icon.svg"
                 width="50"
                 className="d-inline-block align-top"
-              /><BusinessName/> {" "}
-              
+              /> {" "}<BusinessName/> 
             </Navbar.Brand>
           </Container>
         </Navbar>
