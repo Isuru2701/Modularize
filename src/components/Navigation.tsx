@@ -1,10 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-
+import "../styles/header.css";
 function BrandExample() {
   return (
     <>
-      <Navbar className="bg-body-tertiary" >
+      <Navbar id="header" className="bg-body-tertiary" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">
             <img
@@ -14,7 +14,7 @@ function BrandExample() {
               height="30"
               className="d-inline-block align-top"
             />{' '}
-            React Bootstrap
+            Modularize
           </Navbar.Brand>
         </Container>
       </Navbar>
