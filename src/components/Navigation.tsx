@@ -4,7 +4,7 @@ import "../styles/header.css";
 function BrandExample() {
   return (
     <>
-      <Navbar className="bg-body-tertiary" data-bs-theme="dark">
+      <Navbar className="bg-body-tertiary navbar-custom" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home" id="brand">
             <img
