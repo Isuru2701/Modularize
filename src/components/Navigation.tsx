@@ -4,17 +4,17 @@ import "../styles/header.css";
 function BrandExample() {
   return (
     <>
-      <Navbar id="header" className="bg-body-tertiary" data-bs-theme="dark">
+      <Navbar className="bg-body-tertiary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" id="brand">
             <img
               alt=""
               src="./icon.svg"
-              width="30"
-              height="30"
+              width="40"
+              height="40"
               className="d-inline-block align-top"
             />{' '}
-            Modularize
+            <span id="brand">Modularize</span>
           </Navbar.Brand>
         </Container>
       </Navbar>
