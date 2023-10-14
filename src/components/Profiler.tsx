@@ -5,14 +5,14 @@ export default function Profiler() {
     <div className="center" >
       <Card  className="build-profile">
         <Card.Body>
-          <Card.Title>PC</Card.Title>
+          <Card.Title id="responsive">PC</Card.Title>
          
         </Card.Body>
       </Card>
 
       <Card   className="build-profile">
         <Card.Body>
-          <Card.Title>Laptop</Card.Title>
+          <Card.Title id="responsive">Laptop</Card.Title>
         </Card.Body>
       </Card>
 
