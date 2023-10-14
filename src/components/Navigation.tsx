@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import "../styles/header.css";
-function BrandExample() {
+export default function Navigation() {
   return (
     <>
       <Navbar className="bg-body-tertiary navbar-custom" data-bs-theme="dark">
@@ -21,5 +21,3 @@ function BrandExample() {
     </>
   );
 }
-
-export default BrandExample;
